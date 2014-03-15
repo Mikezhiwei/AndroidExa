@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/qa_bar"
+            android:orientation="horizontal">
+              <ImageView 
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:background="@drawable/qa_logo"
+                 />
+        </LinearLayout>
+        <RelativeLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/layoutbtn">
+             <Button 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:id="@+id/sleep_btn"
+             android:background="@drawable/composer_sleep"/>
+
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentBottom="true"
+                 android:layout_alignParentLeft="true"
+                 android:id="@+id/thought_btn"
+                 android:background="@drawable/composer_thought" />
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentBottom="true"
+                 android:layout_alignParentLeft="true"
+                 android:id="@+id/music_btn"
+                 android:background="@drawable/composer_music"
+                >
+             </Button>
+             <Button 
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentBottom="true"
+                 android:layout_alignParentLeft="true"
+                 android:id="@+id/place_btn"
+                 android:background="@drawable/composer_place"
+                 />
+               <Button 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentBottom="true"
+                   android:layout_alignParentLeft="true"
+                   android:background="@drawable/composer_with"
+                   android:id="@+id/with_btn"/>
+               <Button 
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentBottom="true"
+                   android:layout_alignParentLeft="true"
+                   android:id="@+id/camera_btn"
+                   android:background="@drawable/composer_camera"/>
+               <Button 
+                   android:layout_width="wrap_content"
+                   android:layout_marginBottom="4dip"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentBottom="true"
+                   android:layout_alignParentLeft="true"
+                   android:id="@+id/friend_btn"
+                   android:background="@drawable/friends_delete"/>
+        </RelativeLayout>
+</RelativeLayout>

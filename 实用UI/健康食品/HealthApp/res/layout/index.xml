@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/home_page">  
+    
+       
+          <Button 
+              android:id="@+id/listbutton"
+              android:layout_width="300px"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="200px"
+              android:background="#C9EAF3"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:textColor="#FFFFFF"
+              
+              android:text="健康饮食搭列表"/>
+           <Button 
+               android:id="@+id/about"
+               android:background="#F83F9C"
+               android:layout_width="300px"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30px"
+               android:text="关于本软件"
+               android:layout_gravity="center"
+               android:textColor="#FFFFFF"/>
+           <Button
+               android:id="@+id/future"
+               android:background="#D3F344"
+               android:layout_width="300px"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="30px"
+               android:text="待开发"
+               android:layout_gravity="center"
+               android:textColor="#FFFFFF"
+               />
+           
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff" >
+    
+         <LinearLayout 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:id="@+id/rowlayout"
+             android:background="#E0E097">
+               <TextView 
+                   android:layout_width="fill_parent"
+                   android:layout_marginLeft="18dip"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dip"
+                   android:text="这种导弹的平均航速为5倍音速"
+                   android:textColor="#000000"
+                   android:textSize="18dip"
+                   android:ellipsize="end"
+                   android:maxLines="1"
+                   android:id="@+id/title"/>
+                <LinearLayout 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dip">
+                    <ImageView 
+                        android:layout_width="120dip"
+                        android:layout_height="80dip"
+                        android:layout_marginLeft="15dip"
+                        android:layout_marginBottom="9dip"
+                        android:id="@+id/newsimage"
+                        android:background="@drawable/p3"/><!-- 对图片进行了大小控制，优化了界面 -->
+                    <TextView 
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dip"
+                        android:layout_marginLeft="5dip"
+                        android:gravity="center"
+                        android:maxLines="3"
+                        android:ellipsize="marquee"
+                        android:text="@string/news"
+                        android:id="@+id/news"
+                        android:textSize="10dip"/><!-- 对大量的文字进行了显示限制maxline和elipsize -->
+                </LinearLayout>
+         </LinearLayout>
+</LinearLayout>
